@@ -1,0 +1,97 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Users\Manish\Desktop\Desktop\vb\Calculus\Integrator\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+E:\Windows\System32\COMCT332.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\Users\Manish\Desktop\Desktop\vb\Calculus\Integrator\intgrator.exe=Yes
+E:\Windows\System32\msvbvm60.dll=Yes
+E:\Windows\System32\oleaut32.dll=Yes
+E:\Windows\System32\olepro32.dll=Yes
+E:\Windows\System32\asycfilt.dll=Yes
+E:\Windows\System32\stdole2.tlb=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\Windows\System32\MSCOMCTL.OCX=Yes
+E:\Windows\System32\MSCOMCT2.OCX=Yes
+E:\Windows\System32\COMCT332.OCX=Yes
+E:\Windows\System32\COMDLG32.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\Windows\System32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\Users\Manish\Desktop\Desktop\vb\Calculus\Integrator\intgrator.exe=$(AppPath)
+E:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+E:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+E:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+E:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+E:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+E:\Windows\System32\COMCT332.OCX=$(WinSysPath)
+E:\Windows\System32\COMDLG32.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\Users\Manish\Desktop\Desktop\vb\Calculus\Integrator\intgrator.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=MathTools
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=MathTools
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|MathTools]
+Icon1=intgrator.exe
+Title1=MathTools
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\Users\Manish\Desktop\Desktop\vb\Calculus\Integrator\Package
+ProjectFolder=E:\Users\Manish\Desktop\Desktop\vb\Calculus\Integrator
+ServerSideCab=
+File1=E:\Users\Manish\Desktop\Desktop\vb\Calculus\Integrator\Package\setup.exe
+File2=E:\Users\Manish\Desktop\Desktop\vb\Calculus\Integrator\Package\Setup.Lst
+File3=E:\Users\Manish\Desktop\Desktop\vb\Calculus\Integrator\Package\intgrator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
